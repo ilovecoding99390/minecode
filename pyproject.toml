@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minecode"
+version = "0.1.0"
+description = "A Python module that uses bed_apy"
+authors = [{name = "Ezekiel Nogle"}]
+license = {text = "GPL-3.0"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "bed_apy",
+    "asyncio",
+    "pillow",
+    "random"
+]
+
+[tool.setuptools]
+packages = ["minecode"]

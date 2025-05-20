@@ -18,5 +18,5 @@ dependencies = [
     "random"
 ]
 
-[tool.setuptools]
-packages = ["minecode"]
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -12,7 +12,7 @@ setup(
         asyncio,
         math,
         json,
-        PIL,
+        pillow,
         random
         
     ],  # Add dependencies here  
